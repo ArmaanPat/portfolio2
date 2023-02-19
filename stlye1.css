@@ -1,0 +1,49 @@
+h1{
+    color: black
+}
+.header{
+    border:solid;
+    background-color: rgb(79, 176, 145);
+    display:flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.header a{
+    border: 0px;
+    padding-right: 50px;
+    padding-top: 30px;
+    color: rgb(79, 176, 145);
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item{
+    justify-content: center;
+}
+.item img{
+    border-radius: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+.footer a{
+    margin: 5px;
+    border-radius: 10px;
+}
+p, h2{
+    text-align: center;
+    color: rgb(79, 176, 145)
+}
+body{
+    background-color: #000000;
+}
+li{
+    color: rgb(79, 176, 145);
+}
+h3{
+    color:rgb(79, 176, 145)
+}
